@@ -1,0 +1,144 @@
+{
+  "interviews": [
+    {
+      "id": 1,
+      "title": "Message — Clip officiel",
+      "youtubeId": "Bc0VEVzLntM",
+      "year": 2024
+    },
+    {
+      "id": 2,
+      "title": "Doucement feat. Joé Dwèt Filé — Clip officiel",
+      "youtubeId": "aFRlAAwWgnY",
+      "year": 2025
+    }
+  ],
+  "documentaries": [
+    {
+      "id": 3,
+      "title": "Concert à l'Olympia de Paris — Live intégral (2007)",
+      "youtubeId": "O4LJ4yNdlco",
+      "year": 2007
+    }
+  ],
+  "concerts": [
+    {
+      "id": 4,
+      "title": "Droit Chemin — Live à l'Olympia",
+      "youtubeId": "6leg58aBF6c",
+      "year": 2007
+    },
+    {
+      "id": 5,
+      "title": "Cadenas — Live à l'Olympia",
+      "youtubeId": "jx9kI0-rSP8",
+      "year": 2007
+    },
+    {
+      "id": 6,
+      "title": "Mayanga — Clip officiel (live session)",
+      "youtubeId": "XI5jYXheC4M",
+      "year": 2025
+    }
+  ],
+  "clips": [
+    {
+      "id": 7,
+      "title": "Eloko Oyo — Clip officiel",
+      "youtubeId": "T4KNVT2w0mU",
+      "year": 2017
+    },
+    {
+      "id": 8,
+      "title": "Kiname feat. Booba — Clip officiel",
+      "youtubeId": "c-ni0M3EtK8",
+      "year": 2016
+    },
+    {
+      "id": 9,
+      "title": "Bad Boy feat. Aya Nakamura — Clip officiel",
+      "youtubeId": "yfCWGHlMxKI",
+      "year": 2017
+    },
+    {
+      "id": 10,
+      "title": "Service — Clip officiel",
+      "youtubeId": "hsYbe1RxUxM",
+      "year": 2013
+    },
+    {
+      "id": 11,
+      "title": "Sweet Life « La vie est belle » — Clip officiel",
+      "youtubeId": "zmyGF8YnICU",
+      "year": 2012
+    },
+    {
+      "id": 12,
+      "title": "Sexy Dance feat. Krys — Clip officiel",
+      "youtubeId": "mmWN6Z7xsK0",
+      "year": 2009
+    },
+    {
+      "id": 13,
+      "title": "École — Clip officiel",
+      "youtubeId": "3WT5DR86mcs",
+      "year": 2018
+    },
+    {
+      "id": 14,
+      "title": "Canne à sucre — Clip officiel",
+      "youtubeId": "JbUWPz7FSe0",
+      "year": 2018
+    },
+    {
+      "id": 15,
+      "title": "A Flyé — Clip officiel",
+      "youtubeId": "vvblK1uRuTs",
+      "year": 2019
+    },
+    {
+      "id": 16,
+      "title": "Mayday — Clip officiel",
+      "youtubeId": "hXPgfdxFIlg",
+      "year": 2023
+    },
+    {
+      "id": 17,
+      "title": "Un coup feat. Dadju — Clip officiel",
+      "youtubeId": "G0mM2XdjmHo",
+      "year": 2020
+    },
+    {
+      "id": 20,
+      "title": "Message — Clip officiel",
+      "youtubeId": "Bc0VEVzLntM",
+      "year": 2024
+    },
+    {
+      "id": 21,
+      "title": "Mayanga — Clip officiel",
+      "youtubeId": "XI5jYXheC4M",
+      "year": 2025
+    },
+    {
+      "id": 22,
+      "title": "Doucement feat. Joé Dwèt Filé — Clip officiel",
+      "youtubeId": "aFRlAAwWgnY",
+      "year": 2025
+    }
+  ],
+  "historical": [
+    {
+      "id": 18,
+      "title": "Original — Clip officiel",
+      "youtubeId": "HqtC3hxVLMo",
+      "year": 2014
+    },
+    {
+      "id": 19,
+      "title": "Droit Chemin — Live à l'Olympia (premier grand concert)",
+      "youtubeId": "6leg58aBF6c",
+      "year": 2007
+    }
+  ]
+}

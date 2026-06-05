@@ -1,0 +1,315 @@
+export default {
+  lang: {
+    fr: 'French',
+    en: 'English',
+    es: 'Spanish',
+    pt: 'Portuguese',
+    de: 'German',
+    it: 'Italian',
+    select: 'Choose language',
+  },
+  brand: {
+    title: 'One Memoria Heritage',
+    subtitle: 'The Story of Fally Ipupa',
+    description: 'Discover the exceptional journey of Fally Ipupa through an immersive experience retracing his history, career, works, achievements and cultural legacy.',
+    footerTribute: 'Unofficial digital tribute created by One Memoria.',
+  },
+  name: 'Fally Ipupa',
+  quote: "I don't make afropop, I make tokooos.",
+  summary: 'Fally Ipupa N\'simba, nicknamed "Dicap la Merveille", is one of the greatest artists of modern Congolese rumba. Born in Kinshasa in 1977, he revolutionized African music by blending rumba, ndombolo, R&B and afrobeat. After shining with Koffi Olomidé\'s Quartier Latin International, he launched a solo career in 2006 that propelled him onto stages worldwide.',
+  navigation: [
+    { label: 'Overview', href: '#presentation' },
+    { label: 'Timeline', href: '#timeline' },
+    { label: 'Origins', href: '#origines' },
+    { label: 'Discography', href: '#discographie' },
+    { label: 'Gallery', href: '#galerie' },
+    { label: 'Archives', href: '#videotheque' },
+    { label: 'Legacy', href: '#heritage' },
+  ],
+  hero: { cta: 'Discover his story' },
+  sections: {
+    presentation: {
+      eyebrow: '01 — Overview',
+      title: 'Who is Fally Ipupa?',
+      subtitle: 'The journey of an artist who redefined Congolese rumba',
+    },
+    stats: { title: 'Key figures', subtitle: 'An exceptional career in a few numbers' },
+    timeline: {
+      eyebrow: '02 — Timeline',
+      title: 'Timeline',
+      subtitle: 'From Kinshasa to the world\'s greatest stages',
+    },
+    origines: {
+      eyebrow: '03 — Origins',
+      title: 'His story',
+      subtitle: 'Family, Quartier Latin and solo career',
+    },
+    discographie: {
+      eyebrow: '04 — Discography',
+      title: 'Discography',
+      subtitle: 'The albums that marked a career',
+    },
+    galerie: {
+      eyebrow: '05 — Gallery',
+      title: 'Historical gallery',
+      subtitle: 'Images through the eras',
+    },
+    archives: {
+      eyebrow: '06 — Archives',
+      title: 'Video archives',
+      subtitle: 'Interviews, documentaries, concerts and official clips',
+    },
+    awards: { title: 'Awards', subtitle: 'A career celebrated around the world' },
+    quotes: { title: 'Quotes', subtitle: 'Words that resonate' },
+    heritage: {
+      eyebrow: '07 — Legacy',
+      title: 'Cultural legacy',
+      subtitle: 'The impact that turns an artist into a legend',
+      testimonials: 'Testimonials',
+    },
+  },
+  stats: {
+    careerYears: 'Years of career',
+    albums: 'Albums',
+    awards: 'Awards',
+    internationalTours: 'International tours',
+  },
+  trailer: { title: 'Eloko Oyo — Official clip', iframeTitle: 'Trailer' },
+  biography: {
+    origines: {
+      title: 'Origins',
+      blocks: {
+        famille: {
+          title: 'Family',
+          content: 'Born into a Mongo family in Kinshasa, Fally Ipupa grew up in a large household where discipline and education held a central place. His father initially wanted him to become a doctor, but music would ultimately prevail.',
+        },
+        enfance: {
+          title: 'Childhood',
+          content: 'In the Bandalungwa district, birthplace of the legendary Wenge Musica, Fally was immersed in Congolese rumba. He sang in church from childhood and developed an innate sense of rhythm and melody.',
+        },
+        influences: {
+          title: 'Musical influences',
+          content: 'Franco Luambo, Tabu Ley Rochereau, Lokua Kanza and George Benson were his first references. Soukous, ndombolo and Congolese rumba formed the musical DNA he would carry throughout his career.',
+        },
+        reves: {
+          title: 'Early dreams',
+          content: 'Despite family reluctance, young Faustin dreamed of the stage. He played in street groups, honed his guitar and voice, convinced that music was his calling.',
+        },
+      },
+    },
+    quartierLatin: {
+      title: 'The Quartier Latin Adventure',
+      blocks: {
+        entree: {
+          title: 'Joining the orchestra',
+          content: 'In May 1999, Fally joined Koffi Olomidé\'s Quartier Latin International after being spotted by producer David Monsoh. He quickly became musical director, composer and one of the group\'s most admired figures.',
+        },
+        evolution: {
+          title: 'Artistic evolution',
+          content: 'For seven years, he composed, danced and sang alongside Koffi Olomidé. He contributed to major albums like Attentat and Force de frappe, and became known for his remarkable duets, notably on Effervescent.',
+        },
+        chansons: {
+          title: 'Memorable songs',
+          content: 'Among his memorable contributions: Eternelement, his compositions for Force de frappe, and numerous tracks that made him the darling of Quartier Latin. The public nicknamed him "Dicap la Merveille" and "Anelka".',
+        },
+      },
+    },
+    carriereSolo: {
+      title: 'Solo Career',
+      blocks: {
+        albums: {
+          title: 'Albums',
+          content: 'Since Droit Chemin (2006), Fally has released about ten major studio albums: Arsenal de Belles Mélodies, Power « Kosa Leka », Tokooos, Control, Tokooos II, Formule 7, Njangi Ngando and XX, each marking a new stage in his artistic evolution.',
+        },
+        tournees: {
+          title: 'Tours',
+          content: 'He has filled the largest venues in Africa, Europe and America: Stade des Martyrs in Kinshasa, Zénith de Paris, Olympia, Accor Arena and Paris La Défense Arena. His world tours are among the most significant in African music.',
+        },
+        succes: {
+          title: 'International success',
+          content: 'Signed to Elektra/Warner, Fally conquered the French and global market. Kiname with Booba, Eloko Oyo, and his Tokooos albums earned gold and platinum certifications. He now has billions of streams and over 5 million social media followers.',
+        },
+      },
+    },
+  },
+  timeline: {
+    1: {
+      title: 'Born in Kinshasa',
+      date: 'December 14, 1977',
+      description: 'Faustin Ipupa N\'simba is born in Kinshasa, in the Bandalungwa district, in a large family. Early on, he develops a passion for music despite his parents\' hopes that he would pursue a medical career.',
+    },
+    2: {
+      title: 'Childhood and first influences',
+      date: '1990s',
+      description: 'He sings in church with his mother and sister, learns congas and guitar. The Bandalungwa district, birthplace of Wenge Musica, exposes him to rumba and soukous rhythms. Franco, Tabu Ley, Lokua Kanza and George Benson deeply shaped his musical world.',
+    },
+    3: {
+      title: 'Musical beginnings — Talent Latent',
+      date: '1997',
+      description: 'At 19, Fally makes his public debut with the group Talent Latent in Kinshasa. He plays in street formations despite his father\'s initial disapproval, already affirming his talent as a singer and dancer.',
+    },
+    4: {
+      title: 'Joining Quartier Latin International',
+      date: 'May 1999',
+      description: 'Spotted by producer David Monsoh, he joins Koffi Olomidé\'s group, Quartier Latin International. He becomes composer, musical director and a key figure, nicknamed "Anelka" then "Dicap la Merveille". He participates in six group albums.',
+    },
+    5: {
+      title: 'Solo career begins — Droit Chemin',
+      date: 'June 2006',
+      description: 'Fally leaves Quartier Latin to go solo, causing an earthquake in the Congolese scene. His first album Droit Chemin sells over 100,000 copies in one month and achieves gold status.',
+    },
+    6: {
+      title: 'Arsenal de Belles Mélodies',
+      date: 'June 25, 2009',
+      description: 'Second studio album, Arsenal de Belles Mélodies, with hits Chaise Électrique and Sexy Dance. The album exceeds 500,000 sales in France. Fally becomes the 5th most searched personality on Yahoo France.',
+    },
+    7: {
+      title: 'Power « Kosa Leka »',
+      date: 'April 2013',
+      description: 'Third studio album with hits Service and Sweet Life « La vie est belle ». The album consolidates his dominance on the Afro-French scene and opens doors to international collaborations.',
+    },
+    8: {
+      title: 'Tokooos — Birth of a genre',
+      date: '2017',
+      description: 'Fally coins the term "tokooos" to describe his new sound blending Congolese rumba, R&B and rap. The Tokooos album and hit Eloko Oyo (over 100 million views) mark a turning point in his international career.',
+    },
+    9: {
+      title: 'Paris La Défense Arena — Supreme consecration',
+      date: 'November 25, 2023',
+      description: 'Fally Ipupa fills Paris La Défense Arena before 40,000 spectators, becoming one of the few African artists to perform in a venue of this scale in France. A historic moment symbolizing his rise to the top of the world stage.',
+    },
+    10: {
+      title: 'Present day — Stade de France & album XX',
+      date: '2025 — present',
+      description: 'Fally continues his career with the double album XX and two dates at Stade de France. With over 5 million YouTube subscribers and billions of streams, he remains the ambassador of modern Congolese rumba.',
+    },
+  },
+  albums: {
+    descriptions: {
+      1: 'First solo album, symbol of his artistic independence. Over 100,000 sales in one month, gold record.',
+      2: 'The album that propelled him in France. Over 500,000 copies sold.',
+      3: 'Third studio opus, consolidation of his Afro-French empire.',
+      4: 'Birth of the "tokooos" genre. Album certified gold in France with international features.',
+      5: 'Continuation of the Tokooos adventure, between rumba and contemporary urban sounds.',
+      6: 'Return to rumba roots. Over 3 million streams in 24 hours upon release.',
+    },
+    singles: 'Singles',
+    collaborations: 'Collaborations',
+    participations: 'Participations',
+  },
+  gallery: {
+    categories: {
+      enfance: 'Childhood',
+      debuts: 'Early days',
+      quartierLatin: 'Quartier Latin',
+      carriereSolo: 'Solo career',
+      scenesInternationales: 'International stages',
+    },
+    captions: {
+      1: 'Fally Ipupa — portrait (Wikimedia Commons)',
+      2: 'Fally Ipupa in 2014 — solo career firmly established',
+      3: 'Live performance — early stages',
+      4: 'On stage — early days in Kinshasa',
+      5: 'Quartier Latin era — live performance',
+      6: 'Quartier Latin International — on stage',
+      7: 'Solo career — live concert',
+      8: 'Tokooos era — stage performance',
+      9: 'In concert — the energy of Dicap la Merveille',
+      10: 'Fally Ipupa in Paris, France — 2018',
+      11: 'Fally Ipupa in Cameroon — 2021',
+      12: 'Fally Ipupa — AFCON 2022, special guest',
+      13: 'Global Citizen 2015 — international stage',
+    },
+  },
+  videos: {
+    categories: {
+      interviews: 'Interviews',
+      documentaries: 'Documentaries',
+      concerts: 'Concerts',
+      clips: 'Clips',
+      historical: 'Historic moments',
+    },
+  },
+  awards: {
+    1: { prize: 'Césaire de la Musique — Best male performer', description: 'First major award for his album Droit Chemin, recognizing his vocal talent and impact on the Francophone scene.' },
+    2: { prize: 'Kora Awards — Best Central African artist', description: 'Pan-African recognition of his role in modernizing Congolese rumba.' },
+    3: { prize: 'Kundé d\'Or — Best Central African artist', description: 'Second consecutive trophy confirming his dominance on the Central African music scene.' },
+    4: { prize: 'MTV Africa Music Awards — Best Francophone artist', description: 'International award for his influence on contemporary African music.' },
+    5: { prize: 'MTV Africa Music Awards — Best video (Sexy Dance)', description: 'Award for the visual quality and cultural impact of the Sexy Dance video.' },
+    6: { prize: 'Gold Certification — Tokooos album (France)', description: 'Tokooos certified gold, marking his entry into the pantheon of best-selling Afro-French artists.' },
+    7: { prize: 'Export Platinum — Tokooos', description: 'Recognition of his international sales outside France.' },
+    8: { prize: 'Paris La Défense Arena — Sold out', description: 'Historic stage consecration before tens of thousands of spectators in Paris.' },
+  },
+  heritage: {
+    musical: 'Fally Ipupa invented "tokooos", a hybrid genre blending Congolese rumba, ndombolo, R&B and rap. His style influences an entire generation of Afro-urban artists, from Wizkid to Aya Nakamura, to the new voices of Kinshasa.',
+    cultural: 'Ambassador of Congolese culture, he made rumba accessible to audiences worldwide. His lyrics in Lingala, French and English create a bridge between Africa and the diaspora.',
+    african: 'With sold-out concerts across the continent — from Kinshasa to Lagos, Dakar to Johannesburg — Fally embodies the reach of contemporary African music on the world stage.',
+    youth: 'Through the Fally Ipupa Foundation and his example of success, he inspires millions of young Africans to pursue their artistic dreams despite obstacles.',
+    cards: {
+      musical: 'Musical influence',
+      cultural: 'Cultural impact',
+      african: 'African reach',
+      youth: 'Youth inspiration',
+    },
+    quotes: [
+      { text: "I don't make afropop, I make tokooos.", context: 'Interview — defining his style' },
+      { text: 'Music is my life, it gives me the strength to keep going.', context: 'Concert — Kinshasa' },
+      { text: 'Africa has inexhaustible musical wealth. It must be shared with the world.', context: 'Interview — African reach' },
+      { text: 'Each album is a new page in my story.', context: 'Formule 7 release' },
+    ],
+    testimonials: [
+      { author: 'Koffi Olomidé', role: 'Mentor and former musical director', text: 'Fally was a star in Quartier Latin. His departure marked an era, but his talent was evident to all.' },
+      { author: 'Booba', role: 'Artist — Kiname collaboration', text: 'Kiname is the meeting of two worlds. Fally brings a unique African energy to French rap.' },
+      { author: 'Wizkid', role: 'Artist — Tokooos collaboration', text: 'Fally is one of the pillars of African music. Working with him means touching the essence of the continent.' },
+    ],
+    sources: [
+      'Wikipedia — Fally Ipupa',
+      'IFPI — Fally Ipupa Case Study (2023)',
+      'Music In Africa — Directory Fally Ipupa',
+      'Next Is Africa — The Eagle of Kinshasa',
+      'YouTube — Official channel @fallyipupa',
+      'Wikimedia Commons — Fally Ipupa photos (CC BY-SA)',
+      'Deezer / Apple Music — Official discography',
+      'Discogs — Live at the Olympia',
+      'Factuel.cd — Paris La Défense Arena',
+      'TV5MONDE — Stade de France interview',
+    ],
+  },
+  blackBlock: {
+    title: 'His legacy',
+    badge: 'Essential',
+    description: 'Discover the musical influence, cultural impact and African reach of Fally Ipupa.',
+    linkLabel: 'Discover',
+  },
+  albumCard: { album: 'Album', famousTracks: 'Famous tracks', listen: 'Listen' },
+  footer: {
+    biography: 'Biography',
+    works: 'Works',
+    heritageNav: 'Legacy',
+    sources: 'Sources',
+    copyright: 'All rights reserved',
+    nav: {
+      biography: [
+        { label: 'Overview', href: '#presentation' },
+        { label: 'Origins', href: '#origines' },
+        { label: 'Timeline', href: '#timeline' },
+      ],
+      works: [
+        { label: 'Discography', href: '#discographie' },
+        { label: 'Gallery', href: '#galerie' },
+        { label: 'Video archives', href: '#videotheque' },
+      ],
+      heritage: [
+        { label: 'Awards', href: '#recompenses' },
+        { label: 'Quotes', href: '#citations' },
+        { label: 'Impact', href: '#heritage' },
+        { label: 'Sources', href: '#sources' },
+      ],
+    },
+    sectionTitles: { biography: 'Biography', works: 'Works', heritage: 'Legacy' },
+  },
+  meta: {
+    description: 'One Memoria Heritage — The Story of Fally Ipupa. Discover the exceptional journey of the Congolese artist through an immersive experience.',
+    pageTitle: 'One Memoria Heritage — The Story of Fally Ipupa',
+  },
+}

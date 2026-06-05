@@ -1,0 +1,35 @@
+{
+  "brand": {
+    "title": "One Memoria Heritage",
+    "subtitle": "L'Histoire de Fally Ipupa",
+    "description": "Découvrez le parcours exceptionnel de Fally Ipupa à travers une expérience immersive retraçant son histoire, sa carrière, ses œuvres, ses accomplissements et son héritage culturel.",
+    "footerTribute": "Hommage numérique non officiel réalisé par One Memoria."
+  },
+  "name": "Fally Ipupa",
+  "fullName": "Fally Ipupa N'simba",
+  "birthDate": "14 décembre 1977",
+  "birthPlace": "Kinshasa, République Démocratique du Congo",
+  "quote": "Moi, je ne fais pas de l'afropop mais du tokooos.",
+  "heroImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/FALLY_IPOUPA%2C_musicien.jpg/1280px-FALLY_IPOUPA%2C_musicien.jpg",
+  "emblematicPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Fally_Ipupa_a_Paris%2C_en_France.jpg/960px-Fally_Ipupa_a_Paris%2C_en_France.jpg",
+  "summary": "Fally Ipupa N'simba, surnommé « Dicap la Merveille », est l'un des plus grands artistes de la rumba congolaise moderne. Né à Kinshasa en 1977, il a révolutionné la musique africaine en fusionnant rumba, ndombolo, R&B et afrobeat. Après avoir brillé au sein du Quartier Latin International de Koffi Olomidé, il a entamé une carrière solo en 2006 qui l'a propulsé sur les scènes du monde entier.",
+  "stats": {
+    "careerYears": 27,
+    "albums": 10,
+    "awards": 18,
+    "internationalTours": 60
+  },
+  "trailer": {
+    "title": "Eloko Oyo — Clip officiel",
+    "youtubeId": "T4KNVT2w0mU"
+  },
+  "navigation": [
+    { "label": "Présentation", "href": "#presentation" },
+    { "label": "Chronologie", "href": "#timeline" },
+    { "label": "Origines", "href": "#origines" },
+    { "label": "Discographie", "href": "#discographie" },
+    { "label": "Galerie", "href": "#galerie" },
+    { "label": "Archives", "href": "#videotheque" },
+    { "label": "Héritage", "href": "#heritage" }
+  ]
+}

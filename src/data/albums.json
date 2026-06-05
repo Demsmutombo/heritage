@@ -1,0 +1,72 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Droit Chemin",
+      "year": 2006,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Prestation_de_Fally_3.jpg/500px-Prestation_de_Fally_3.jpg",
+      "description": "Premier album solo, symbole de son indépendance artistique. Plus de 100 000 ventes en un mois, disque d'or.",
+      "hits": ["Droit Chemin", "Liputa", "Orgasy"],
+      "youtubeId": "6leg58aBF6c"
+    },
+    {
+      "id": 2,
+      "title": "Arsenal de Belles Mélodies",
+      "year": 2009,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Prestation_de_Fally_4.jpg/500px-Prestation_de_Fally_4.jpg",
+      "description": "L'album qui le propulse en France. Plus de 500 000 exemplaires vendus.",
+      "hits": ["Chaise Électrique", "Sexy Dance", "Mi Amor"],
+      "youtubeId": "mmWN6Z7xsK0"
+    },
+    {
+      "id": 3,
+      "title": "Power « Kosa Leka »",
+      "year": 2013,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Prestation_de_Fally_5.jpg/500px-Prestation_de_Fally_5.jpg",
+      "description": "Troisième opus studio, consolidation de son empire afro-francophone.",
+      "hits": ["Service", "Sweet Life « La vie est belle »", "Ndoki"],
+      "youtubeId": "hsYbe1RxUxM"
+    },
+    {
+      "id": 4,
+      "title": "Tokooos",
+      "year": 2017,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Prestation_de_Fally_6.jpg/500px-Prestation_de_Fally_6.jpg",
+      "description": "Naissance du genre « tokooos ». Album certifié or en France avec des featurings internationaux.",
+      "hits": ["Eloko Oyo", "Kiname", "Bad Boy"],
+      "youtubeId": "T4KNVT2w0mU"
+    },
+    {
+      "id": 5,
+      "title": "Control Premium",
+      "year": 2018,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Fally_Ipupa_a_Paris%2C_en_France.jpg/500px-Fally_Ipupa_a_Paris%2C_en_France.jpg",
+      "description": "Suite de l'aventure Tokooos, entre rumba et sonorités urbaines contemporaines.",
+      "hits": ["École", "Canne à sucre", "A Flyé"],
+      "youtubeId": "3WT5DR86mcs"
+    },
+    {
+      "id": 6,
+      "title": "Formule 7",
+      "year": 2022,
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/FALLY_IPOUPA%2C_musicien.jpg/500px-FALLY_IPOUPA%2C_musicien.jpg",
+      "description": "Retour aux racines rumba. Plus de 3 millions de streams en 24 heures à sa sortie.",
+      "hits": ["Mayday", "Afsana", "Mayanga"],
+      "youtubeId": "hXPgfdxFIlg"
+    }
+  ],
+  "singles": [
+    { "title": "Eloko Oyo", "year": 2017 },
+    { "title": "Kiname feat. Booba", "year": 2016 },
+    { "title": "Original", "year": 2014 }
+  ],
+  "collaborations": [
+    { "title": "Un coup feat. Dadju", "year": 2020 },
+    { "title": "Doucement feat. Joé Dwèt Filé", "year": 2025 },
+    { "title": "Bad Boy feat. Aya Nakamura", "year": 2017 }
+  ],
+  "participations": [
+    { "title": "Quartier Latin — Force de frappe", "year": 2003 },
+    { "title": "Quartier Latin — Effrakata", "year": 2001 }
+  ]
+}

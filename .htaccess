@@ -1,0 +1,13 @@
+# Heritage — Redirection racine vers le dossier dist (hébergement Apache classique)
+# Utilisez ce fichier si vous déployez le projet entier sur un hébergeur Apache.
+# Préférez déployer uniquement le contenu de dist/ avec public/.htaccess inclus.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Rediriger vers dist/ si le build existe
+  RewriteCond %{REQUEST_URI} !^/dist/
+  RewriteCond %{DOCUMENT_ROOT}/dist/index.html -f
+  RewriteRule ^(.*)$ dist/$1 [L]
+</IfModule>

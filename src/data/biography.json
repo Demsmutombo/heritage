@@ -1,0 +1,67 @@
+{
+  "origines": {
+    "title": "Les Origines",
+    "blocks": [
+      {
+        "id": "famille",
+        "title": "Famille",
+        "content": "Né dans une famille mongo de Kinshasa, Fally Ipupa grandit au sein d'un foyer nombreux où la discipline et l'éducation occupent une place centrale. Son père souhaitait initialement qu'il devienne médecin, mais la musique finira par l'emporter."
+      },
+      {
+        "id": "enfance",
+        "title": "Enfance",
+        "content": "Dans le quartier de Bandalungwa, berceau du légendaire Wenge Musica, Fally est bercé par les sons de la rumba congolaise. Il chante dès l'enfance dans l'église et développe un sens inné du rythme et de la mélodie."
+      },
+      {
+        "id": "influences",
+        "title": "Influences musicales",
+        "content": "Franco Luambo, Tabu Ley Rochereau, Lokua Kanza et George Benson constituent ses premières références. Le soukous, le ndombolo et la rumba congolaise forment l'ADN musical qu'il portera toute sa carrière."
+      },
+      {
+        "id": "reves",
+        "title": "Premiers rêves",
+        "content": "Malgré les réticences familiales, le jeune Faustin rêve de scène. Il joue dans des groupes de rue, perfectionne sa guitare et sa voix, convaincu que la musique est sa vocation."
+      }
+    ]
+  },
+  "quartierLatin": {
+    "title": "L'Aventure Quartier Latin",
+    "blocks": [
+      {
+        "id": "entree",
+        "title": "Entrée dans l'orchestre",
+        "content": "En mai 1999, Fally intègre le Quartier Latin International de Koffi Olomidé après avoir été repéré par le producteur David Monsoh. Il y devient rapidement chef d'orchestre, compositeur et l'une des figures les plus adulées du groupe."
+      },
+      {
+        "id": "evolution",
+        "title": "Évolution artistique",
+        "content": "Pendant sept ans, il compose, danse et chante aux côtés de Koffi Olomidé. Il contribue à des albums majeurs comme Attentat et Force de frappe, et se fait connaître pour ses duos remarqués, notamment sur Effervescent."
+      },
+      {
+        "id": "chansons",
+        "title": "Chansons marquantes",
+        "content": "Parmi ses contributions mémorables : Eternelement, ses compositions pour Force de frappe, et de nombreux titres qui font de lui la coqueluche du Quartier Latin. Le public le surnomme « Dicap la Merveille » et « Anelka »."
+      }
+    ]
+  },
+  "carriereSolo": {
+    "title": "La Carrière Solo",
+    "blocks": [
+      {
+        "id": "albums",
+        "title": "Albums",
+        "content": "Depuis Droit Chemin (2006), Fally a sorti une dizaine d'albums studio majeurs : Arsenal de Belles Mélodies, Power « Kosa Leka », Tokooos, Control, Tokooos II, Formule 7, Njangi Ngando et XX, chacun marquant une nouvelle étape de son évolution artistique."
+      },
+      {
+        "id": "tournees",
+        "title": "Tournées",
+        "content": "Il a rempli les plus grandes salles d'Afrique, d'Europe et d'Amérique : Stade des Martyrs à Kinshasa, Zénith de Paris, Olympia, Accor Arena et Paris La Défense Arena. Ses tournées mondiales comptent parmi les plus importantes de la musique africaine."
+      },
+      {
+        "id": "succes",
+        "title": "Succès internationaux",
+        "content": "Signé chez Elektra/Warner, Fally a conquis le marché français et mondial. Kiname avec Booba, Eloko Oyo, et ses albums Tokooos ont obtenu des certifications or et platine. Il compte aujourd'hui des milliards de streams et plus de 5 millions d'abonnés sur les réseaux sociaux."
+      }
+    ]
+  }
+}

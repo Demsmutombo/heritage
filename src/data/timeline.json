@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "year": 1977,
+    "title": "Naissance à Kinshasa",
+    "date": "14 décembre 1977",
+    "description": "Faustin Ipupa N'simba naît à Kinshasa, dans le quartier de Bandalungwa, au cœur d'une famille nombreuse. Très tôt, il développe une passion pour la musique malgré les espoirs de ses parents qu'il embrasse une carrière médicale.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Fally_ipoupa.jpg/960px-Fally_ipoupa.jpg"],
+    "videos": [],
+    "sources": ["Wikipedia — Fally Ipupa", "Next Is Africa — The Eagle of Kinshasa"]
+  },
+  {
+    "id": 2,
+    "year": 1990,
+    "title": "Enfance et premières influences",
+    "date": "Années 1990",
+    "description": "Il chante dans l'église avec sa mère et sa sœur, apprend les congas et la guitare. Le quartier Bandalungwa, berceau du Wenge Musica, l'expose aux rythmes de la rumba et du soukous. Franco, Tabu Ley, Lokua Kanza et George Benson marquent profondément son univers musical.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fally_Ipupa_en_2014.jpg/800px-Fally_Ipupa_en_2014.jpg"],
+    "videos": [],
+    "sources": ["Music In Africa — Fally Ipupa", "Next Is Africa"]
+  },
+  {
+    "id": 3,
+    "year": 1997,
+    "title": "Débuts musicaux — Talent Latent",
+    "date": "1997",
+    "description": "À 19 ans, Fally fait ses débuts publics avec le groupe Talent Latent à Kinshasa. Il joue dans des formations de rue malgré la désapprobation initiale de son père, affirmant déjà son talent de chanteur et danseur.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Prestation_de_Fally_1.jpg/960px-Prestation_de_Fally_1.jpg"],
+    "videos": [],
+    "sources": ["Wikipedia — Fally Ipupa"]
+  },
+  {
+    "id": 4,
+    "year": 1999,
+    "title": "Intégration au Quartier Latin International",
+    "date": "Mai 1999",
+    "description": "Repéré par le producteur David Monsoh, il rejoint le groupe de Koffi Olomidé, Quartier Latin International. Il y devient compositeur, chef d'orchestre et figure incontournable, surnommé « Anelka » puis « Dicap la Merveille ». Il participe à six albums du groupe.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Prestation_de_Fally_2.jpg/960px-Prestation_de_Fally_2.jpg"],
+    "videos": [],
+    "sources": ["Wikipedia — Fally Ipupa", "DRC Singers Wiki"]
+  },
+  {
+    "id": 5,
+    "year": 2006,
+    "title": "Début de la carrière solo — Droit Chemin",
+    "date": "Juin 2006",
+    "description": "Fally quitte le Quartier Latin pour se lancer en solo, provoquant un séisme dans la scène congolaise. Son premier album Droit Chemin se vend à plus de 100 000 exemplaires en un mois et obtient le statut disque d'or.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Prestation_de_Fally_3.jpg/960px-Prestation_de_Fally_3.jpg"],
+    "videos": ["6leg58aBF6c"],
+    "sources": ["Wikipedia — Fally Ipupa", "IFPI — Fally Ipupa Case Study"]
+  },
+  {
+    "id": 6,
+    "year": 2009,
+    "title": "Arsenal de Belles Mélodies",
+    "date": "25 juin 2009",
+    "description": "Deuxième album studio, Arsenal de Belles Mélodies, avec les tubes Chaise Électrique et Sexy Dance. L'album dépasse 500 000 ventes en France. Fally devient la 5e personnalité la plus recherchée sur Yahoo France.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Prestation_de_Fally_4.jpg/960px-Prestation_de_Fally_4.jpg"],
+    "videos": ["mmWN6Z7xsK0"],
+    "sources": ["Wikipedia — Fally Ipupa"]
+  },
+  {
+    "id": 7,
+    "year": 2013,
+    "title": "Power « Kosa Leka »",
+    "date": "Avril 2013",
+    "description": "Troisième album studio avec les hits Service et Sweet Life « La vie est belle ». L'album consolide sa domination sur la scène afro-francophone et ouvre les portes des collaborations internationales.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Prestation_de_Fally_5.jpg/960px-Prestation_de_Fally_5.jpg"],
+    "videos": ["hsYbe1RxUxM", "zmyGF8YnICU"],
+    "sources": ["Wikipedia — Sweet Life", "Deezer — Service"]
+  },
+  {
+    "id": 8,
+    "year": 2017,
+    "title": "Tokooos — Naissance d'un genre",
+    "date": "2017",
+    "description": "Fally crée le terme « tokooos » pour décrire son nouveau son mêlant rumba congolaise, R&B et rap. L'album Tokooos et le tube Eloko Oyo (plus de 100 millions de vues) marquent un tournant dans sa carrière internationale.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Prestation_de_Fally_6.jpg/960px-Prestation_de_Fally_6.jpg"],
+    "videos": ["T4KNVT2w0mU", "c-ni0M3EtK8", "yfCWGHlMxKI"],
+    "sources": ["IFPI — Fally Ipupa Case Study", "YouTube — Chaîne officielle Fally Ipupa"]
+  },
+  {
+    "id": 9,
+    "year": 2023,
+    "title": "Paris La Défense Arena — La consécration suprême",
+    "date": "25 novembre 2023",
+    "description": "Fally Ipupa remplit la Paris La Défense Arena devant 40 000 spectateurs, devenant l'un des rares artistes africains à se produire dans une enceinte de cette envergure en France. Un moment historique qui symbolise son ascension vers le sommet de la scène mondiale.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Fally_Ipupa_a_Paris%2C_en_France.jpg/960px-Fally_Ipupa_a_Paris%2C_en_France.jpg"],
+    "videos": ["hXPgfdxFIlg"],
+    "sources": ["Music In Africa — Fally Ipupa", "Factuel.cd"]
+  },
+  {
+    "id": 10,
+    "year": 2025,
+    "title": "Période actuelle — Stade de France & album XX",
+    "date": "2025 — présent",
+    "description": "Fally poursuit sa carrière avec le double album XX et une double date au Stade de France. Avec plus de 5 millions d'abonnés YouTube et des milliards de streams, il demeure l'ambassadeur de la rumba congolaise moderne.",
+    "photos": ["https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/FALLY_IPOUPA%2C_musicien.jpg/960px-FALLY_IPOUPA%2C_musicien.jpg"],
+    "videos": ["XI5jYXheC4M", "aFRlAAwWgnY"],
+    "sources": ["IFPI — Fally Ipupa Case Study", "TV5MONDE — Fally Ipupa"]
+  }
+]

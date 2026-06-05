@@ -1,0 +1,367 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --color-accent: #dc2626;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-black antialiased;
+  font-family: var(--font-sans);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* ─── Sections ─── */
+.section-light { @apply bg-white text-black; }
+.section-dark { @apply bg-black text-white; }
+.section-muted { @apply bg-neutral-50 text-black; }
+.section-accent { @apply bg-neutral-950 text-white; }
+
+.section-block {
+  @apply relative overflow-hidden py-20 md:py-28 lg:py-32;
+}
+
+.section-contained {
+  @apply px-6 md:px-10 lg:px-16;
+}
+
+.section-contained > *:not(.section-full-bleed) {
+  @apply mx-auto max-w-6xl;
+}
+
+.scroll-mt-28 {
+  scroll-margin-top: 7rem;
+}
+
+/* ─── Language selector ─── */
+.lang-selector__btn {
+  @apply flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:text-red-400;
+}
+
+.lang-selector__menu {
+  @apply absolute right-0 top-full z-50 mt-2 min-w-[10rem] overflow-hidden border border-white/10 bg-black py-1 shadow-xl;
+}
+
+.lang-selector__option {
+  @apply flex w-full items-center gap-3 px-4 py-2.5 text-left text-sm text-neutral-300 transition-colors hover:bg-white/5 hover:text-white;
+}
+
+.lang-selector__option--active {
+  @apply bg-red-600/10 text-white;
+}
+
+.lang-selector__short {
+  @apply w-6 text-xs font-bold uppercase text-red-500;
+}
+
+.lang-selector__label {
+  @apply text-xs;
+}
+
+.lang-drop-enter-active,
+.lang-drop-leave-active {
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.lang-drop-enter-from,
+.lang-drop-leave-to {
+  opacity: 0;
+  transform: translateY(-4px);
+}
+
+/* ─── Splash screen (ouverture) ─── */
+body.splash-active {
+  overflow: hidden;
+}
+
+.splash-screen {
+  @apply fixed inset-0 z-[100] flex items-center justify-center bg-black;
+}
+
+.splash-screen__backdrop {
+  @apply absolute inset-0 bg-black;
+  transition: opacity 0.8s ease-out;
+}
+
+.splash-screen__logo {
+  @apply relative z-10 w-[min(88vw,480px)] object-contain;
+  transform: scale(0.75);
+  opacity: 0;
+}
+
+.splash-screen--hold .splash-screen__logo {
+  animation: splash-zoom-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.splash-screen--exit {
+  pointer-events: none;
+}
+
+.splash-screen--exit .splash-screen__backdrop {
+  @apply opacity-0;
+  transition: opacity 0.8s ease-out;
+}
+
+.splash-screen--exit .splash-screen__logo {
+  animation: splash-zoom-out 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes splash-zoom-in {
+  from {
+    transform: scale(0.75);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes splash-zoom-out {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+/* ─── Scroll progress ─── */
+.scroll-progress {
+  @apply fixed top-0 left-0 z-[60] h-0.5 bg-red-600;
+  transform-origin: left;
+  transition: transform 0.1s linear;
+}
+
+/* ─── Reveal animations ─── */
+.reveal {
+  @apply transition-all ease-out;
+  will-change: opacity, transform, filter;
+}
+
+.reveal-fade-up:not(.reveal-visible) { @apply translate-y-10 opacity-0; }
+.reveal-fade-down:not(.reveal-visible) { @apply -translate-y-10 opacity-0; }
+.reveal-fade-left:not(.reveal-visible) { @apply translate-x-10 opacity-0; }
+.reveal-fade-right:not(.reveal-visible) { @apply -translate-x-10 opacity-0; }
+.reveal-scale:not(.reveal-visible) { @apply scale-95 opacity-0; }
+.reveal-blur:not(.reveal-visible) { @apply opacity-0 blur-sm; }
+
+.reveal-visible {
+  @apply translate-x-0 translate-y-0 scale-100 opacity-100;
+  filter: blur(0);
+}
+
+/* ─── Section navigation ─── */
+.section-nav {
+  @apply sticky top-14 z-40 border-b border-neutral-200/80 bg-white/90 backdrop-blur-md;
+}
+
+.section-nav-inner {
+  @apply mx-auto max-w-6xl px-4 md:px-6;
+}
+
+.section-nav-track {
+  @apply flex items-center gap-1 overflow-x-auto py-3;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.section-nav-track::-webkit-scrollbar { display: none; }
+
+.section-nav-link {
+  @apply relative flex shrink-0 items-center gap-2 px-4 py-2 text-xs font-bold uppercase tracking-wider text-neutral-500 transition-all duration-300;
+}
+
+.section-nav-link:hover {
+  @apply text-black;
+}
+
+.section-nav-link--active {
+  @apply text-black;
+}
+
+.section-nav-link--active::after {
+  content: '';
+  @apply absolute bottom-0 left-4 right-4 h-0.5 bg-red-600;
+  animation: nav-underline 0.4s ease-out;
+}
+
+.section-nav-dot {
+  @apply h-1.5 w-1.5 rounded-full bg-neutral-300 transition-all duration-300;
+}
+
+.section-nav-link--active .section-nav-dot {
+  @apply scale-125 bg-red-600;
+}
+
+@keyframes nav-underline {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+/* ─── Section title ─── */
+.section-eyebrow {
+  @apply mb-3 text-xs font-bold uppercase tracking-[0.25em] text-red-600;
+}
+
+.section-heading {
+  @apply text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl;
+}
+
+.section-subheading {
+  @apply mx-auto mt-4 max-w-2xl font-serif text-lg italic text-neutral-500;
+}
+
+.section-divider {
+  @apply mx-auto mt-6 h-px w-16 bg-neutral-300;
+}
+
+/* ─── Buttons & links ─── */
+.red-underline {
+  @apply relative inline-block pb-2;
+}
+
+.red-underline::after {
+  content: '';
+  @apply absolute bottom-0 left-0 h-0.5 w-full origin-left scale-x-100 bg-red-600 transition-transform duration-300;
+}
+
+.red-underline:hover::after {
+  @apply scale-x-110;
+}
+
+.btn-primary {
+  @apply inline-block bg-black px-8 py-4 text-sm font-bold uppercase tracking-widest text-white transition-all duration-300 hover:bg-neutral-800 hover:shadow-lg;
+}
+
+.btn-secondary {
+  @apply inline-block bg-white px-8 py-4 text-sm font-bold uppercase tracking-widest text-black shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-neutral-100 hover:shadow-xl;
+}
+
+.badge-new {
+  @apply inline-block bg-red-600 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white;
+}
+
+/* ─── Biography tabs ─── */
+.bio-tabs {
+  @apply mb-10 flex flex-wrap justify-center gap-2 border-b border-neutral-200 pb-px;
+}
+
+.bio-tab {
+  @apply px-5 py-3 text-sm font-bold uppercase tracking-wider text-neutral-400 transition-all duration-300;
+}
+
+.bio-tab:hover { @apply text-black; }
+
+.bio-tab--active {
+  @apply border-b-2 border-red-600 text-black;
+}
+
+.bio-panel {
+  @apply max-w-3xl mx-auto;
+}
+
+/* ─── Video tabs ─── */
+.video-tabs {
+  @apply mb-10 flex flex-wrap justify-center gap-2;
+}
+
+.video-tab {
+  @apply flex items-center gap-2 border border-neutral-700 px-4 py-2 text-xs font-bold uppercase tracking-wider text-neutral-400 transition-all duration-300;
+}
+
+.video-tab:hover {
+  @apply border-neutral-500 text-white;
+}
+
+.video-tab--active {
+  @apply border-red-600 bg-red-600/10 text-white;
+}
+
+.video-tab-count {
+  @apply rounded-full bg-neutral-800 px-2 py-0.5 text-[10px];
+}
+
+.video-tab--active .video-tab-count {
+  @apply bg-red-600 text-white;
+}
+
+/* ─── Cards hover ─── */
+.card-hover {
+  @apply transition-all duration-500 ease-out;
+}
+
+.card-hover:hover {
+  @apply -translate-y-2 shadow-2xl;
+}
+
+.image-zoom {
+  @apply overflow-hidden;
+}
+
+.image-zoom img {
+  @apply transition-transform duration-700 ease-out;
+}
+
+.image-zoom:hover img {
+  @apply scale-105;
+}
+
+/* ─── Hero animations ─── */
+@keyframes hero-fade-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-animate {
+  animation: hero-fade-up 1s ease-out both;
+}
+
+.hero-animate-delay-1 { animation-delay: 0.2s; }
+.hero-animate-delay-2 { animation-delay: 0.4s; }
+.hero-animate-delay-3 { animation-delay: 0.6s; }
+.hero-animate-delay-4 { animation-delay: 0.8s; }
+
+@keyframes hero-ken-burns {
+  from { transform: scale(1.05); }
+  to { transform: scale(1); }
+}
+
+.hero-ken-burns {
+  animation: hero-ken-burns 8s ease-out forwards;
+}
+
+/* ─── Stats counter pulse ─── */
+@keyframes stat-pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  70% { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.stat-animate {
+  animation: stat-pop 0.6s ease-out both;
+}
+
+/* ─── Timeline year parallax ─── */
+.timeline-year {
+  @apply transition-transform duration-1000 ease-out;
+}
+
+/* ─── Heritage bento ─── */
+.heritage-card {
+  @apply border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all duration-500;
+}
+
+.heritage-card:hover {
+  @apply border-red-600/50 bg-white/10 -translate-y-1;
+}

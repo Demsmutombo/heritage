@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "year": 2007,
+    "prize": "Césaire de la Musique — Meilleur interprète masculin",
+    "description": "Première consécration majeure pour son album Droit Chemin, récompensant son talent vocal et son impact sur la scène francophone."
+  },
+  {
+    "id": 2,
+    "year": 2007,
+    "prize": "Kora Awards — Meilleur artiste d'Afrique centrale",
+    "description": "Reconnaissance panafricaine de son rôle dans la modernisation de la rumba congolaise."
+  },
+  {
+    "id": 3,
+    "year": 2008,
+    "prize": "Kundé d'Or — Meilleur artiste d'Afrique centrale",
+    "description": "Deuxième trophée consécutif confirmant sa domination sur la scène musicale centrafricaine."
+  },
+  {
+    "id": 4,
+    "year": 2010,
+    "prize": "MTV Africa Music Awards — Meilleur artiste francophone",
+    "description": "Récompense internationale pour son influence sur la musique africaine contemporaine."
+  },
+  {
+    "id": 5,
+    "year": 2010,
+    "prize": "MTV Africa Music Awards — Meilleur clip (Sexy Dance)",
+    "description": "Distinction pour la qualité visuelle et l'impact culturel du clip Sexy Dance."
+  },
+  {
+    "id": 6,
+    "year": 2017,
+    "prize": "Certification Or — Album Tokooos (France)",
+    "description": "Tokooos certifié disque d'or, marquant son entrée dans le panthéon des artistes afro-francophones les plus vendus."
+  },
+  {
+    "id": 7,
+    "year": 2018,
+    "prize": "Certification Platine export — Tokooos",
+    "description": "Reconnaissance de ses ventes internationales hors de France."
+  },
+  {
+    "id": 8,
+    "year": 2023,
+    "prize": "Paris La Défense Arena — Salle comble",
+    "description": "Consécration scénique historique devant des dizaines de milliers de spectateurs à Paris."
+  }
+]

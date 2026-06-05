@@ -1,0 +1,77 @@
+{
+  "enfance": [
+    {
+      "id": 1,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Fally_ipoupa.jpg/960px-Fally_ipoupa.jpg",
+      "caption": "Fally Ipupa — portrait (Wikimedia Commons)"
+    },
+    {
+      "id": 2,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Fally_Ipupa_en_2014.jpg/800px-Fally_Ipupa_en_2014.jpg",
+      "caption": "Fally Ipupa en 2014 — début de carrière solo affirmée"
+    }
+  ],
+  "debuts": [
+    {
+      "id": 3,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Prestation_de_Fally_1.jpg/960px-Prestation_de_Fally_1.jpg",
+      "caption": "Prestation live — premières scènes"
+    },
+    {
+      "id": 4,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Prestation_de_Fally_2.jpg/960px-Prestation_de_Fally_2.jpg",
+      "caption": "Sur scène — les débuts à Kinshasa"
+    }
+  ],
+  "quartierLatin": [
+    {
+      "id": 5,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Prestation_de_Fally_3.jpg/960px-Prestation_de_Fally_3.jpg",
+      "caption": "L'ère Quartier Latin — performance live"
+    },
+    {
+      "id": 6,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Prestation_de_Fally_4.jpg/960px-Prestation_de_Fally_4.jpg",
+      "caption": "Quartier Latin International — sur scène"
+    }
+  ],
+  "carriereSolo": [
+    {
+      "id": 7,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Prestation_de_Fally_5.jpg/960px-Prestation_de_Fally_5.jpg",
+      "caption": "Carrière solo — concert live"
+    },
+    {
+      "id": 8,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Prestation_de_Fally_6.jpg/960px-Prestation_de_Fally_6.jpg",
+      "caption": "Tokooos era — performance scénique"
+    },
+    {
+      "id": 9,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Prestation_de_Fally_7.jpg/960px-Prestation_de_Fally_7.jpg",
+      "caption": "En concert — l'énergie Dicap la Merveille"
+    }
+  ],
+  "scenesInternationales": [
+    {
+      "id": 10,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Fally_Ipupa_a_Paris%2C_en_France.jpg/960px-Fally_Ipupa_a_Paris%2C_en_France.jpg",
+      "caption": "Fally Ipupa à Paris, France — 2018"
+    },
+    {
+      "id": 11,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Fally_Ipupa_au_Cameroun_2021.jpg/960px-Fally_Ipupa_au_Cameroun_2021.jpg",
+      "caption": "Fally Ipupa au Cameroun — 2021"
+    },
+    {
+      "id": 12,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/FALLY_IPOUPA%2C_musicien.jpg/960px-FALLY_IPOUPA%2C_musicien.jpg",
+      "caption": "Fally Ipupa — CAN 2022, invité spécial"
+    },
+    {
+      "id": 13,
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fally_Ipupa_%2817003059817%29.jpg/960px-Fally_Ipupa_%2817003059817%29.jpg",
+      "caption": "Global Citizen 2015 — scène internationale"
+    }
+  ]
+}

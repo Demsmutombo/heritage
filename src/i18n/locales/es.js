@@ -136,5 +136,5 @@ export default {
     },
     sectionTitles: { biography: 'Biografía', works: 'Obras', heritage: 'Legado' },
   },
-  meta: { description: 'One Memoria Heritage — La Historia de Fally Ipupa. Descubra el extraordinario recorrido del artista congoleño a través de una experiencia inmersiva.', pageTitle: 'One Memoria Heritage — La Historia de Fally Ipupa' },
+  meta: { description: 'One Memoria Heritage — La Historia de Fally Ipupa. Descubra el extraordinario recorrido del artista congoleño a través de una experiencia inmersiva.', pageTitle: 'Les Warriors — One Memoria Heritage' },
 }

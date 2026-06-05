@@ -195,6 +195,6 @@ export default {
   },
   meta: {
     description: "One Memoria Heritage — L'Histoire de Fally Ipupa. Découvrez le parcours exceptionnel de l'artiste congolais à travers une expérience immersive.",
-    pageTitle: "One Memoria Heritage — L'Histoire de Fally Ipupa",
+    pageTitle: "Les Warriors — One Memoria Heritage",
   },
 }

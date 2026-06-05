@@ -310,6 +310,6 @@ export default {
   },
   meta: {
     description: 'One Memoria Heritage — The Story of Fally Ipupa. Discover the exceptional journey of the Congolese artist through an immersive experience.',
-    pageTitle: 'One Memoria Heritage — The Story of Fally Ipupa',
+    pageTitle: 'Les Warriors — One Memoria Heritage',
   },
 }
